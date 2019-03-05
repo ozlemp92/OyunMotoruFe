@@ -1,0 +1,6 @@
+<div class="list-group">
+  <a *ngFor='let cat of categories' 
+  href="products/{{cat.categoryId}}"
+  class="list-group-item list-group-item-action">{{cat.categoryName}}</a>
+</div>
+<!--routerLink="{{cat.categoryId}}"-->
